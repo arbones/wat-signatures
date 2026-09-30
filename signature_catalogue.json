@@ -1,0 +1,1968 @@
+[
+ {
+  "population_id": 0,
+  "working_name": "PLIN1+/PPARG+/ADIPOQ+ lipogenic mature adipocyte",
+  "mapping_type": "PARTIAL",
+  "core_markers": [],
+  "contested": [
+   {
+    "gene_symbol": "PLIN1",
+    "n_members_with_gene": 13,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "PPARG",
+    "n_members_with_gene": 10,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "ADIPOQ",
+    "n_members_with_gene": 9,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "CEBPA",
+    "n_members_with_gene": 9,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "DGAT2",
+    "n_members_with_gene": 5,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "CAR3",
+    "n_members_with_gene": 4,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "LIPE",
+    "n_members_with_gene": 4,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "ADIG",
+    "n_members_with_gene": 3,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "AGPAT2",
+    "n_members_with_gene": 3,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "CDCA8",
+    "n_members_with_gene": 3,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "FABP4",
+    "n_members_with_gene": 3,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "PDGFRA",
+    "n_members_with_gene": 3,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "PNPLA2",
+    "n_members_with_gene": 3,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "SCD1",
+    "n_members_with_gene": 3,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "ACSL1",
+    "n_members_with_gene": 2,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "CEBPB",
+    "n_members_with_gene": 2,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "CIDEC",
+    "n_members_with_gene": 2,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "FABP5",
+    "n_members_with_gene": 2,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "GPAM",
+    "n_members_with_gene": 2,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "IRS1",
+    "n_members_with_gene": 2,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "PLIN4",
+    "n_members_with_gene": 2,
+    "n_total_members": 21
+   },
+   {
+    "gene_symbol": "SCD",
+    "n_members_with_gene": 2,
+    "n_total_members": 21
+   }
+  ],
+  "n_idiosyncratic": 33,
+  "pass1_counterpart": "PLIN1+/ADIPOQ+ mature lipogenic adipocyte",
+  "marker_overlap_with_pass1": 0.7,
+  "support_set_jaccard": 0.45,
+  "reporting_studies": [
+   {
+    "pmid": "30265241",
+    "doi": "10.7554/elife.39636",
+    "author_label": "Cluster 1B",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (FACS/genetically isolated tdTomato- GFP+ PDGFR\u03b2-lineage stromal-vascular cells; MuralChaser lineage-tracing model)",
+    "source_locator": "Results text following Figure 1E, sentence beginning 'Interestingly, Cluster 1B further enriches in the expression of Pparg, Cebpa...' (citing Figure 1F); heatmap in Figure 1D (not independently viewable, image not retrieved)"
+   },
+   {
+    "pmid": "31420514",
+    "doi": "10.1073/pnas.1906512116",
+    "author_label": "Cluster 1",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_facial_neck_human",
+    "input_material": "whole cells - clonally expanded human adipose-tissue-derived mesenchymal progenitor cells, differentiated in vitro to adipocytes (bulk RNA-seq per clone; not single-cell/nucleus sequencing of intact tissue).",
+    "source_locator": "PPARG: Results text and Fig. 2 C-D. ADIPOQ: Results text 'Adipocyte Subtypes Specialized for Regulated Expression of Adiponectin and Leptin' and Fig. 5 A-B. DGAT2, FABP4, PLIN1, PLIN4: Results text ('genes such as DGAT2, FABP4, PLIN1, and PLIN4') and Fig. 6B KEGG enrichment, Dataset S8. DBI, AQP7, SCD, AZGP1: Fig. 6A volcano plot, orange (Cluster-1-enriched) labeled points, Dataset S7. Functional annotation: Discussion, paragraph beginning 'While we expected to find 2 adipocyte subtypes', p. 17977."
+   },
+   {
+    "pmid": "35992069",
+    "doi": "10.1016/j.isci.2022.104772",
+    "author_label": "Adipocyte 1 (dup 1)",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei (snRNA-Seq of isolated mature adipocyte fraction)",
+    "source_locator": "Results section 'Adipocyte snRNA-Seq shows lack of adipocyte heterogeneity', paragraph beginning 'Adipocyte 1 had an upregulation of genes associated with lipid metabolism (LIPE/DGAT2) and mitochondrial capacity (NDUFV1/ATP5MC3)...(Figure 2C; Tables S3 and S4)'"
+   },
+   {
+    "pmid": "35992069",
+    "doi": "10.1016/j.isci.2022.104772",
+    "author_label": "Adipocyte 2",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei (whole WAT snRNA-Seq)",
+    "source_locator": "Results paragraph on whole-WAT adipocyte clusters ('Adipocyte 2 from the whole WAT had upregulated genes...This cluster also had the highest expressions of mature adipocyte markers LEP, ADIPOQ, PPARG, and SAA1 (Figure 1B)')"
+   },
+   {
+    "pmid": "38226167",
+    "doi": "10.1016/j.isci.2023.108692",
+    "author_label": "ISA",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results, subsection 'Adipose tissue hypertrophy/hyperplasia is associated with shifts in transcriptionally distinct adipocyte subpopulations', paragraph 1, cross-referenced to Figure 3A and 3B"
+   },
+   {
+    "pmid": "29937373",
+    "doi": "10.1016/j.cmet.2018.05.025",
+    "author_label": "Diff.",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (subset of lineage-negative [Lin-] stromal vascular fraction; pooled Diff. ASC + Pro. ASC cells from Figure 1A, re-clustered with Seurat)",
+    "source_locator": "Figure 2C legend (see Prolif. entry for full citation); Results text describes a terminal trajectory state ('cells in which both Pdgfra and Cdca8 were silenced, and Cebpa, Plin1 and Adig were strongly upregulated') that plausibly corresponds to this label; same caveat as Early Diff. applies"
+   },
+   {
+    "pmid": "29937373",
+    "doi": "10.1016/j.cmet.2018.05.025",
+    "author_label": "Diff. ASC",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (lineage-negative [Lin-] stromal vascular fraction, MACS-sorted)",
+    "source_locator": "Results, section 'scRNA-seq deconvolves progenitor heterogeneity...', sentence: cluster Diff. ASC 'was highly enriched in expression of genes involved in early adipogenesis, including...'; cell count from Figure 1A legend; full DEG list cited as Table S2A (not retrieved)"
+   },
+   {
+    "pmid": "29937373",
+    "doi": "10.1016/j.cmet.2018.05.025",
+    "author_label": "Diff. ASC (dup 1)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (aggregated lineage-positive [Lin+] and lineage-negative [Lin-] stromal vascular cells)",
+    "source_locator": "Figure S4 legend: 'Expression of Cebpa and Plin1 map to population defined in Figure 3A as differentiating ASC.' Also see Figure 3 legend, which lists a broader gene threshold panel (Pdgfra>1, Pdgfrb>1, Cdh5>3, Acta2>2, Plin1>3, Dgat2>3, Adipoq>4, Car3>7, Adrb3>2, Ucp1>1) queried across the whole aggregated dataset, not specific to this cluster alone. Cell count and cluster name from Figure 3A legend; full DEG list cited as Table S2E (not retrieved). Note this is a distinct clustering run (aggregated Lin+/Lin-, 17,640 cells) from the Figure 1A Diff. ASC entry (Lin- only, 9,915 cells, 530 cells) and is reported as a separate row."
+   },
+   {
+    "pmid": "29937373",
+    "doi": "10.1016/j.cmet.2018.05.025",
+    "author_label": "Early Diff.",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (subset of lineage-negative [Lin-] stromal vascular fraction; pooled Diff. ASC + Pro. ASC cells from Figure 1A, re-clustered with Seurat)",
+    "source_locator": "Figure 2C legend (see Prolif. entry for full citation); Results text narratively describes an intermediate trajectory state ('actively dividing cells in which Pdgfra was suppressed, while Cebpa and Plin1 were upregulated, but levels of Adig remained relatively low') that plausibly corresponds to this label, but the text does not explicitly name 'Early Diff.' at that sentence, so this mapping is not verbatim-certain; flagged in top-level notes"
+   },
+   {
+    "pmid": "29937373",
+    "doi": "10.1016/j.cmet.2018.05.025",
+    "author_label": "Prolif.",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (subset of lineage-negative [Lin-] stromal vascular fraction; the pooled Diff. ASC + Pro. ASC cells from Figure 1A were re-clustered with Seurat shared-nearest-neighbor clustering into 3 new sub-clusters)",
+    "source_locator": "Figure 2C legend, which names violin-plot panels 'Prolif., Early Diff., and Diff. clusters' and lists the 6 genes plotted (Pdgfra, Cdca8, Cebpa, Plin1, Adig, Scd1) across all three panels collectively (gene list is not assigned per-cluster in the legend); full DEG list cited as Table S2C (not retrieved)"
+   },
+   {
+    "pmid": "29937373",
+    "doi": "10.1016/j.cmet.2018.05.025",
+    "author_label": "Prolif. (dup 1)",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (lineage-negative [Lin-] stromal vascular fraction, MACS-sorted)",
+    "source_locator": "Results, section 'ADRB3 activation for three days produces minimal de novo adipogenesis...'; sentence: 'overlapping expression of markers of proliferation (Birc5) and early adipogenesis (Car3)...indicating an adipogenic trajectory involving proliferation and upregulation of Cebpa, Plin1, and Adipoq...also exhibited upregulation of Pparg, fatty acid binding protein 4 (Fabp4), Fabp5 and G0s2'; cross-referenced to Figure 5A (cluster location/cell count), 5C (Birc5/Car3), and 5D (Cebpa/Plin1/Adipoq etc.)"
+   },
+   {
+    "pmid": "35982290",
+    "doi": "10.1038/s42255-022-00613-w",
+    "author_label": "Committed preadipocytes (Preads)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (stromal-vascular fraction, SVF)",
+    "source_locator": "Results, 'Stromal cell heterogeneity at the onset of eWAT development' paragraph beginning 'Across all time points, we also observed a distinct cluster...'; cluster labeled 'committed preadipocytes (Preads)' in Extended Data Figure 1a legend; marker expression shown in Extended Data Figure 1c and Extended Data Figure 2a,b; note text states Adipoq expression specifically as 'low levels'"
+   },
+   {
+    "pmid": "36857185",
+    "doi": "10.1016/j.celrep.2023.112166",
+    "author_label": "P18 C6",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (FACS-sorted eGFP+ Tcf21 lineage cells; STAR Methods, 'scRNAseq library construction, sequencing, and data analysis')",
+    "source_locator": "Results, section 'scRNA-seq analysis shows Tcf21 LC heterogeneity', paragraph 2 (sentence beginning 'P18 C6 was enriched for \"fatty acid transport\"...'); see also Figure 3C"
+   },
+   {
+    "pmid": "38951550",
+    "doi": "10.1038/s42003-024-06448-3",
+    "author_label": "Pa17",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells, stromal vascular fraction (SVF)",
+    "source_locator": "Results, ICAM1 trajectory paragraph (page 5); Discussion, paragraph 2 (page 10); Figure 4a,b; Supplementary Fig. S5a-c (not retrieved)"
+   },
+   {
+    "pmid": "39465352",
+    "doi": "10.1038/s12276-024-01252-9",
+    "author_label": "Diff (differentiating cells); clusters C6 and C9",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (PDGFRA+-sorted stromal-vascular fraction, not nuclei)",
+    "source_locator": "Results, section 'scRNA-seq reveals the cellular heterogeneity of CL-treated PDGFRA+ progenitors', paragraph describing the four groups; Fig. 2d, e"
+   },
+   {
+    "pmid": "40476003",
+    "doi": "10.3389/fcell.2025.1578180",
+    "author_label": "S6",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results, section 3.3, paragraph 2 (S1-S6 ASPC subclustering); Figure 3A (UMAP of S1-S6), Figure 3B,C (heatmaps of module scores and marker gene expression, not visually inspected -- markers taken from prose)"
+   },
+   {
+    "pmid": "40791725",
+    "doi": "10.1101/2025.07.11.25331390",
+    "author_label": "Ad2",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei",
+    "source_locator": "Figure 2e (heatmap of average expression of top protein-coding adipocyte subcell-type marker genes, one column-pair per subcell-type, diagonal blocks); subcluster identity and UMAP shown in Figure 2c; the count of eight adipocyte subcell-types is stated in Results, page 8, paragraph 'Adipocyte heterogeneity drives subcell-type composition'."
+   },
+   {
+    "pmid": "41029365",
+    "doi": "10.1186/s12915-025-02405-6",
+    "author_label": "AD2",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Marker genes: Additional file 10: Table S2 (MOESM10_ESM.xls, Sheet1), rows with cluster=AD2 (245 rows total); first 10 rows in native table order shown here. Functional annotation: Results, page 4, paragraph beginning 'Next, we compared the metabolic activity of each adipocyte subpopulation...', sentence describing AD3 vs AD4 vs 'AD2 (the intermediate differentiated adipocyte in WT mice)'; also Fig. 1F/1G."
+   },
+   {
+    "pmid": "37503028",
+    "doi": "10.21203/rs.3.rs-3097605/v1",
+    "author_label": "Adipocyte 2 (\"Immature\")",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results, 'Adipocyte Heterogeneity' subsection, paragraph 1 (page 6); also depicted in Figure 3A dotplot under the 'Immature' bracket"
+   },
+   {
+    "pmid": "37503028",
+    "doi": "10.21203/rs.3.rs-3097605/v1",
+    "author_label": "Adipocyte 3 (\"Mature\")",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results, 'Adipocyte Heterogeneity' subsection, paragraph 1 (page 6); also depicted in Figure 3A dotplot under the 'Mature' bracket"
+   },
+   {
+    "pmid": "34380013",
+    "doi": "10.1016/j.cmet.2021.07.018",
+    "author_label": "AdipoPLIN",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "spatial section (Visium spatial transcriptomics, spot-level 'cell class' deconvolution); marker genes cross-validated against isolated mature adipocyte vs. stromal cell bulk RNA-seq data (Acosta et al., 2017) and an in vivo hyperinsulinemic-euglycemic clamp bulk RNA-seq dataset (Ryd\u00e9n et al., 2016)",
+    "source_locator": "Same Results/Discussion paragraph as AdipoLEP entry, sentence 'This contrasted with AdipoPLIN, where the marker genes were linked to glucose (TRARG1, GPD1, PFKFB3, and MLXIPL) and lipid metabolism (e.g., LIPE, DGAT2, PNPLA2, AGPAT2, GPAM, and FASN) as well as the adipokine adiponectin (ADIPOQ)'; cross-referenced to Figure 4A legend ('cell class 04') and PLIN1/PLIN4 naming sentence; Supplementary Table S1/Table S4 cited as source, full contents not retrieved."
+   }
+  ],
+  "n_member_labels": 21,
+  "stable_across_runs": [
+   "ACSL1",
+   "ADIPOQ",
+   "AGPAT2",
+   "CAR3",
+   "CEBPA",
+   "CEBPB",
+   "DGAT2",
+   "FABP4",
+   "IRS1",
+   "LIPE",
+   "PLIN1",
+   "PLIN4",
+   "PPARG",
+   "SCD1"
+  ],
+  "v4_only_markers": [
+   "ADIG",
+   "CDCA8",
+   "CIDEC",
+   "FABP5",
+   "GPAM",
+   "PDGFRA",
+   "PNPLA2",
+   "SCD"
+  ],
+  "n_v4_markers": 22,
+  "transcription_note": null
+ },
+ {
+  "population_id": 1,
+  "working_name": "CD55+/PI16+/DPP4+ adipose stem cell",
+  "mapping_type": "PARTIAL",
+  "core_markers": [],
+  "contested": [
+   {
+    "gene_symbol": "CD55",
+    "n_members_with_gene": 15,
+    "n_total_members": 16
+   },
+   {
+    "gene_symbol": "PI16",
+    "n_members_with_gene": 12,
+    "n_total_members": 16
+   },
+   {
+    "gene_symbol": "DPP4",
+    "n_members_with_gene": 10,
+    "n_total_members": 16
+   },
+   {
+    "gene_symbol": "AKR1C18",
+    "n_members_with_gene": 2,
+    "n_total_members": 16
+   },
+   {
+    "gene_symbol": "ANXA3",
+    "n_members_with_gene": 2,
+    "n_total_members": 16
+   },
+   {
+    "gene_symbol": "EFHD1",
+    "n_members_with_gene": 2,
+    "n_total_members": 16
+   },
+   {
+    "gene_symbol": "WNT2",
+    "n_members_with_gene": 2,
+    "n_total_members": 16
+   }
+  ],
+  "n_idiosyncratic": 9,
+  "pass1_counterpart": "DPP4+/CD55+/PDGFRA+ adipose stem cell",
+  "marker_overlap_with_pass1": 0.857,
+  "support_set_jaccard": 0.45,
+  "reporting_studies": [
+   {
+    "pmid": "32643301",
+    "doi": "10.1002/jcsm.12596",
+    "author_label": "adipose stem cell",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (FACS-sorted viable single cells from enzymatically dissociated whole tissue)",
+    "source_locator": "Supplementary Figure S6, panel 'Cluster 1: adipose stem cell' (page 10 of supplementary PDF JCSM-11-1351-s002.pdf)"
+   },
+   {
+    "pmid": "36376273",
+    "doi": "10.1038/s41421-022-00466-3",
+    "author_label": "ASC",
+    "species_normalized": "human",
+    "depot_category": "multi_depot_pooled",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Methods, 'Unsupervised clustering and marker identification' subsection (final paragraph: 'stem-cell like (CD55, DPP4)'); cross-referenced with Results, 'Distinct progenitor clusters identified in VAT and SAT', paragraph beginning 'The clustering of ASPCs...' (clusters 5, 6, 7, described there as expressing 'DDP4 and CD55' [sic, likely a typographical variant of DPP4]); Fig. 2a and Fig. 3a UMAP legends (label 'ASC')"
+   },
+   {
+    "pmid": "36590177",
+    "doi": "10.1016/j.isci.2022.105750",
+    "author_label": "adipocyte progenitors (clusters 1-5)",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (flow-sorted Sca1+ APCs from stromal-vascular fraction, single-cell suspension)",
+    "source_locator": "Results, section 'Low n6/n3 FA ratios increase mitochondrial high adipocyte precursor cells and have two pseudotime trajectories', paragraph 1 ('Cellular identities of several APC subtype populations within the UMAP were observed (Figure 5B), including adipocyte progenitors within clusters 1-5 (Cd24a, Cd55, and Pi16 expression)...'); also referenced in Figure 5B legend."
+   },
+   {
+    "pmid": "31023895",
+    "doi": "10.1126/science.aav2501",
+    "author_label": "Group 1",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (CD45-depleted stromal vascular cells, SVCs)",
+    "source_locator": "Results, 'Human adipose tissue contains analogous stromal populations' subsection; Fig. 4, F and G, and fig. S13 (not retrieved)"
+   },
+   {
+    "pmid": "38729152",
+    "doi": "10.1016/j.cmet.2024.04.017",
+    "author_label": "hASCs (ASCs)",
+    "species_normalized": "human",
+    "depot_category": "multi_depot_pooled",
+    "input_material": "whole cells; SVF Lin\u2013 (CD45\u2013/CD31\u2013) fraction of the stromal vascular fraction; mature adipocytes explicitly discarded prior to sequencing",
+    "source_locator": "Main text, Results section 'Human adipose-derived stromal cells are highly heterogeneous at the single-cell level' (page 5); marker list and cell count in Figure 2C and 2F"
+   },
+   {
+    "pmid": "38951550",
+    "doi": "10.1038/s42003-024-06448-3",
+    "author_label": "DPP4 preadipocytes",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells, stromal vascular fraction (SVF); mature lipid-containing adipocytes excluded by centrifugation before scRNA-seq",
+    "source_locator": "Results, 'Clustering and reconstruction of the developmental trajectory of preadipocytes' section, paragraph beginning 'Merrick D et al. profiled progenitor cells...' (page 3-4); Figure 3b; also Methods, single-cell data processing paragraph"
+   },
+   {
+    "pmid": "40273250",
+    "doi": "10.1126/science.adj0430",
+    "author_label": "ASC",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (Lin- SVF, FACS/negative selection of CD45-/CD31-/Ter119- cells)",
+    "source_locator": "Results, 'An age-specific APC population with a globally activated adipogenic program', paragraph beginning 'The mesenchymal progenitor marker Pdgfra...'; Figure 3H; fig. S5, L and M"
+   },
+   {
+    "pmid": "40273250",
+    "doi": "10.1126/science.adj0430",
+    "author_label": "Hu0",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "whole cells (Lin- SVF, depletion of CD45+/CD31+/CD235a+ cells)",
+    "source_locator": "Results, 'Clusters Hu0, 2, 3, and 6 were enriched with mouse ASC markers'; 'Human clusters similar to mouse ASC had high expression of the ASC markers CD55 and PI16'; Figure 4, B and D; fig. S9C"
+   },
+   {
+    "pmid": "40273250",
+    "doi": "10.1126/science.adj0430",
+    "author_label": "Hu2",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "whole cells (Lin- SVF, depletion of CD45+/CD31+/CD235a+ cells)",
+    "source_locator": "Results, 'Clusters Hu0, 2, 3, and 6 were enriched with mouse ASC markers'; 'Human clusters similar to mouse ASC had high expression of the ASC markers CD55 and PI16'; Figure 4, B and D; fig. S9C"
+   },
+   {
+    "pmid": "40273250",
+    "doi": "10.1126/science.adj0430",
+    "author_label": "Hu3",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "whole cells (Lin- SVF, depletion of CD45+/CD31+/CD235a+ cells)",
+    "source_locator": "Results, 'Clusters Hu0, 2, 3, and 6 were enriched with mouse ASC markers'; Figure 4, B and D; fig. S9C"
+   },
+   {
+    "pmid": "40273250",
+    "doi": "10.1126/science.adj0430",
+    "author_label": "Hu6",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "whole cells (Lin- SVF, depletion of CD45+/CD31+/CD235a+ cells)",
+    "source_locator": "Results, 'Clusters Hu0, 2, 3, and 6 were enriched with mouse ASC markers'; Figure 4, B and D; fig. S9C"
+   },
+   {
+    "pmid": "40744015",
+    "doi": "10.1016/j.stem.2025.07.004",
+    "author_label": "progenitors",
+    "species_normalized": "mouse",
+    "depot_category": "dermal_skin_adipose",
+    "input_material": "whole cells (SVF, lineage-sorted APCs; scRNA-seq)",
+    "source_locator": "Results, subsection 'Identification of an uncharacterized immature preadipocyte population in the skin', paragraph ending in Figure 2C reference ('Altogether, our single-cell data recapitulated two major APC populations: heterogeneous progenitors (clusters 0, 1, 2, 4, 5, 6, 9, and 10 expressing Dpp4, Akr1c18, and Smpd3)...'); also Figure 2C legend"
+   },
+   {
+    "pmid": "40780446",
+    "doi": "10.1016/j.molmet.2025.102231",
+    "author_label": "ASC2",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (CD45- stromal vascular fraction, re-clustered Pdgfra-expressing subset)",
+    "source_locator": "Results section 2.5 ('A new trajectory emerged after deletion of Mgp in Pdgfra-expressing cells'), Figure 6B, 6C, 6G, 6H; Discussion section 3, paragraph on ASC2"
+   },
+   {
+    "pmid": "41128612",
+    "doi": "10.1093/procel/pwaf084",
+    "author_label": "ASPC0",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (stromal vascular fraction, SVF; PDGFR\u03b1+ ASPC gate)",
+    "source_locator": "Results, 'FBLN7 is upregulated in PDGFR\u03b1+ ASPCs of murine AT in obesity', paragraph 1; Figure 1A and 1B"
+   },
+   {
+    "pmid": "41731620",
+    "doi": "10.1186/s13293-026-00859-z",
+    "author_label": "ASC",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Results main text (defines 'ASC' = adipose-derived stem cell, citing refs [26,49]) plus Additional file 1, Supplementary Figure S3, panel B (dot plot of average expression/percent expressed); panel A is the UMAP showing the ASC cluster label"
+   },
+   {
+    "pmid": "42474080",
+    "doi": "10.1002/advs.76699",
+    "author_label": "ASCs",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_facial_neck_human",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Results 2.1, paragraph beginning 'Given the crucial role of ASPCs...' (cluster 2 of nine ASPC subclusters, Figure 1K); cf. Figure 1L,M"
+   }
+  ],
+  "n_member_labels": 16,
+  "stable_across_runs": [
+   "ANXA3",
+   "CD55",
+   "DPP4",
+   "EFHD1",
+   "PI16",
+   "WNT2"
+  ],
+  "v4_only_markers": [
+   "AKR1C18"
+  ],
+  "n_v4_markers": 7,
+  "transcription_note": null
+ },
+ {
+  "population_id": 3,
+  "working_name": "FABP4+/LPL+/CD34+ committed preadipocyte",
+  "mapping_type": "PARTIAL",
+  "core_markers": [],
+  "contested": [
+   {
+    "gene_symbol": "FABP4",
+    "n_members_with_gene": 11,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "LPL",
+    "n_members_with_gene": 10,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "CD34",
+    "n_members_with_gene": 4,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "CD36",
+    "n_members_with_gene": 4,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "LY6A",
+    "n_members_with_gene": 4,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "PPARG",
+    "n_members_with_gene": 4,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "COL4A1",
+    "n_members_with_gene": 3,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "COL4A2",
+    "n_members_with_gene": 3,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "IGF1",
+    "n_members_with_gene": 3,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "ADGFR5",
+    "n_members_with_gene": 2,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "CAR3",
+    "n_members_with_gene": 2,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "FABP5",
+    "n_members_with_gene": 2,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "FASN",
+    "n_members_with_gene": 2,
+    "n_total_members": 14
+   },
+   {
+    "gene_symbol": "SULT1E1",
+    "n_members_with_gene": 2,
+    "n_total_members": 14
+   }
+  ],
+  "n_idiosyncratic": 12,
+  "pass1_counterpart": "FABP4+/LPL+/PPARG+ committed preadipocyte",
+  "marker_overlap_with_pass1": 0.714,
+  "support_set_jaccard": 0.35,
+  "reporting_studies": [
+   {
+    "pmid": "30265241",
+    "doi": "10.7554/elife.39636",
+    "author_label": "Cluster 1A",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (FACS/genetically isolated tdTomato- GFP+ PDGFR\u03b2-lineage stromal-vascular cells; MuralChaser lineage-tracing model)",
+    "source_locator": "Results text, paragraph beginning 'We set out to test the hypothesis...' (describing Figure 1B-E); marker list itself given in-text with citation to Figure 1E; heatmap in Figure 1D (not independently viewable, image not retrieved)"
+   },
+   {
+    "pmid": "31767614",
+    "doi": "10.26508/lsa.201900561",
+    "author_label": "Cluster 2 (PA)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells; Sca1pos/CD31neg/CD45neg/Ter119neg-sorted APC gate, not mature adipocytes",
+    "source_locator": "Results, 'Expression analysis broadly categorized...' paragraph (shared clusters 2/4/6 markers); Figure 2D (marker gene panels: Fabp4 [figure axis label rendered 'Fatp4'], Lpl, Wt1, Igf1, Col4a1, Col4a2, Rbp1, Sult1e1); Figure 4A (Cd55low/Cd9low-mid/Cd81low surface phenotype); Figure 1F (proportions)"
+   },
+   {
+    "pmid": "32643301",
+    "doi": "10.1002/jcsm.12596",
+    "author_label": "preadipocyte",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (FACS-sorted viable single cells from enzymatically dissociated whole tissue)",
+    "source_locator": "Supplementary Figure S6, panel 'Cluster 2: preadipocyte' (page 10 of supplementary PDF JCSM-11-1351-s002.pdf)"
+   },
+   {
+    "pmid": "32643301",
+    "doi": "10.1002/jcsm.12596",
+    "author_label": "preadipocyte (dup 1)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (FACS-sorted viable single cells from enzymatically dissociated whole tissue)",
+    "source_locator": "Supplementary Figure S6, panel 'Cluster 5: preadipocyte' (page 10 of supplementary PDF JCSM-11-1351-s002.pdf)"
+   },
+   {
+    "pmid": "36731652",
+    "doi": "10.1016/j.molmet.2023.101682",
+    "author_label": "eAP3",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (SVF fraction; collagenase-dissociated; mature/lipid-laden adipocyte layer removed and discarded before scRNA-seq)",
+    "source_locator": "Results, section 3.3, first paragraph ('...in addition to several distinct adipose precursor subpopulations (named eAP1-3 in the eWAT and scAP1-5 in the scWAT)...more committed preadipocytes (eAP3 and scAP3) characterized by the expression of adipogenic markers such as PPAR\u03b3, Fabp4, Lpl, Fabp5, Car3, and CD36'); marker heat map in Figure 2D; scCODA result in Supplemental Fig. S2E"
+   },
+   {
+    "pmid": "36731652",
+    "doi": "10.1016/j.molmet.2023.101682",
+    "author_label": "scAP2",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (SVF fraction; collagenase-dissociated; mature/lipid-laden adipocyte layer removed and discarded before scRNA-seq)",
+    "source_locator": "Results, section 3.3, paragraph beginning 'Comparison of our data with the characterization of mouse white adipose tissue cell populations...'; also Figure 2B and Figure 2C; note the gene symbol 'Adgfr5' is transcribed exactly as printed in the retrieved main text (possible typo for Adgrf5/Adgre5, not corrected per extraction rule)"
+   },
+   {
+    "pmid": "36731652",
+    "doi": "10.1016/j.molmet.2023.101682",
+    "author_label": "scAP3",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (SVF fraction; collagenase-dissociated; mature/lipid-laden adipocyte layer removed and discarded before scRNA-seq)",
+    "source_locator": "Results, section 3.3, first paragraph ('...more committed preadipocytes (eAP3 and scAP3) characterized by the expression of adipogenic markers such as PPAR\u03b3, Fabp4, Lpl, Fabp5, Car3, and CD36'); marker heat map in Figure 2D"
+   },
+   {
+    "pmid": "36731652",
+    "doi": "10.1016/j.molmet.2023.101682",
+    "author_label": "scAP4",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (SVF fraction; collagenase-dissociated; mature/lipid-laden adipocyte layer removed and discarded before scRNA-seq)",
+    "source_locator": "Results, section 3.3, paragraph beginning 'Comparison of our data with the characterization of mouse white adipose tissue cell populations...'; also Figure 2B and Figure 2C; scAP4 also noted as increased in abundance in GPS2-AKO scWAT together with scAP5 (cluster indices 10 and 14) in Figure 2F"
+   },
+   {
+    "pmid": "38226167",
+    "doi": "10.1016/j.isci.2023.108692",
+    "author_label": "IRA",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results, subsection 'Adipose tissue hypertrophy/hyperplasia is associated with shifts in transcriptionally distinct adipocyte subpopulations', paragraph 1, cross-referenced to Figure 3A and 3B"
+   },
+   {
+    "pmid": "33116305",
+    "doi": "10.1038/s41586-020-2856-x",
+    "author_label": "C2",
+    "species_normalized": "mouse",
+    "depot_category": "brown_beige_adipose",
+    "input_material": "nuclei",
+    "source_locator": "PREPRINT-SOURCED: bioRxiv preprint 10.1101/2020.01.20.890327, page 4 ('Preadipocyte markers, such as Cd34 and Ly6a (Sca1)... were found in few cells in cluster C2, which could denote differentiating precursor cells'). Note: authors describe these as preadipocyte markers found within C2, not a formal marker set defining C2 as an adipocyte subtype; included here per task instructions to report progenitor/preadipocyte subpopulations when authors treat them as part of the adipocyte-lineage subclustering, which this main-text passage does."
+   },
+   {
+    "pmid": "40476003",
+    "doi": "10.3389/fcell.2025.1578180",
+    "author_label": "A2",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results, section 3.4, paragraph 2; Figure 4E (bubble plot of characteristic marker gene expression across A1-A6, not visually inspected -- markers taken from prose)"
+   },
+   {
+    "pmid": "40836034",
+    "doi": "10.1038/s44318-025-00524-y",
+    "author_label": "P1",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (FACS-sorted P1 APCs, bulk RNA-seq, not single-cell)",
+    "source_locator": "Results text, subsection 'Loss of BBS8 results in obesity' paragraph beginning 'To investigate whether this change...'; markers also shown in Figure 3C ('P1 marker' panel)"
+   },
+   {
+    "pmid": "40836034",
+    "doi": "10.1038/s44318-025-00524-y",
+    "author_label": "P2",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (FACS-sorted P2 APCs, bulk RNA-seq, not single-cell)",
+    "source_locator": "Results text, same paragraph as P1 above; markers also shown in Figure 3C ('P2 marker' panel)"
+   },
+   {
+    "pmid": "42153974",
+    "doi": "10.1002/advs.75678",
+    "author_label": "Ad1",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Figure 4C legend (marker genes); functional annotation from Results, paragraph beginning 'Re-clustering of adipocytes (n = 22360) revealed five subpopulations (Figure 4B,C)'"
+   }
+  ],
+  "n_member_labels": 14,
+  "stable_across_runs": [
+   "ADGFR5",
+   "CAR3",
+   "CD34",
+   "CD36",
+   "COL4A1",
+   "COL4A2",
+   "FABP4",
+   "FABP5",
+   "LPL",
+   "PPARG"
+  ],
+  "v4_only_markers": [
+   "FASN",
+   "IGF1",
+   "LY6A",
+   "SULT1E1"
+  ],
+  "n_v4_markers": 14,
+  "transcription_note": "Marker symbols are reported exactly as the source authors wrote them. Two entries in this catalogue therefore carry non-current symbols that we deliberately did not silently correct: CD121a (PMID 33878347), a protein-level alias for the IL1R1 gene product, and Adgfr5 (PMID 36731652), which is printed as such in the source and is most likely the authors' rendering of ADGRF5/GPR116. Preserving them is a consequence of the copy-never-infer rule that governs the extraction, and a reader mapping these signatures onto their own data should resolve both against current nomenclature."
+ },
+ {
+  "population_id": 5,
+  "working_name": "ICAM1+/CD36+/FABP4+ committed preadipocyte",
+  "mapping_type": "FULL",
+  "core_markers": [
+   "ICAM1"
+  ],
+  "contested": [
+   {
+    "gene_symbol": "CD36",
+    "n_members_with_gene": 6,
+    "n_total_members": 11
+   },
+   {
+    "gene_symbol": "FABP4",
+    "n_members_with_gene": 5,
+    "n_total_members": 11
+   },
+   {
+    "gene_symbol": "CD14",
+    "n_members_with_gene": 2,
+    "n_total_members": 11
+   },
+   {
+    "gene_symbol": "ELOVL5",
+    "n_members_with_gene": 2,
+    "n_total_members": 11
+   },
+   {
+    "gene_symbol": "FASN",
+    "n_members_with_gene": 2,
+    "n_total_members": 11
+   },
+   {
+    "gene_symbol": "GGT5",
+    "n_members_with_gene": 2,
+    "n_total_members": 11
+   },
+   {
+    "gene_symbol": "IL15",
+    "n_members_with_gene": 2,
+    "n_total_members": 11
+   },
+   {
+    "gene_symbol": "PPARG",
+    "n_members_with_gene": 2,
+    "n_total_members": 11
+   },
+   {
+    "gene_symbol": "TLR1",
+    "n_members_with_gene": 2,
+    "n_total_members": 11
+   }
+  ],
+  "n_idiosyncratic": 24,
+  "pass1_counterpart": "ICAM1+/FABP4+ committed preadipocyte",
+  "marker_overlap_with_pass1": 1.0,
+  "support_set_jaccard": 0.375,
+  "reporting_studies": [
+   {
+    "pmid": "31023895",
+    "doi": "10.1126/science.aav2501",
+    "author_label": "Group 2",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (stromal vascular cells, SVCs; mature adipocytes removed by centrifugation, CD45+ leukocytes depleted)",
+    "source_locator": "Results, 'Profiling and trajectory analysis of adipose progenitors' subsection, paragraph 2; markers illustrated in Fig. 1B and figs. S2-S3 (not retrieved)"
+   },
+   {
+    "pmid": "31023895",
+    "doi": "10.1126/science.aav2501",
+    "author_label": "Group 2 (dup 1)",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (CD45-depleted stromal vascular cells, SVCs)",
+    "source_locator": "Results, 'Human adipose tissue contains analogous stromal populations' subsection; Fig. 4, F and G, and fig. S13 (not retrieved)"
+   },
+   {
+    "pmid": "38951550",
+    "doi": "10.1038/s42003-024-06448-3",
+    "author_label": "ICAM1 preadipocytes",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells, stromal vascular fraction (SVF); mature lipid-containing adipocytes excluded by centrifugation before scRNA-seq",
+    "source_locator": "Results, 'Clustering and reconstruction of the developmental trajectory of preadipocytes' section (page 3-4); Figure 3b"
+   },
+   {
+    "pmid": "39579770",
+    "doi": "10.1016/j.celrep.2024.114945",
+    "author_label": "preadipocytes",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (stromal vascular fraction, SVF; scRNA-seq)",
+    "source_locator": "Results, section 'Impact of PPAR\u03b3 agonist treatment on adipocyte progenitor cells', paragraph describing Figure 3B-3C; marker genes specifically named in Figure 3 legend, panel (C)"
+   },
+   {
+    "pmid": "39579770",
+    "doi": "10.1016/j.celrep.2024.114945",
+    "author_label": "preadipocytes (dup 1)",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (stromal vascular fraction, SVF; scRNA-seq)",
+    "source_locator": "Results, section 'Impact of PPAR\u03b3 agonist treatment on adipocyte progenitor cells', sentence '...iWAT had very clear separation between progenitors and preadipocytes (Figure S4C)'; figure panel is Figure S4B (subclusters) / Figure S4C (marker gene expression); supplementary figure legend for Figure S4 not retrieved (see retrieval_notes and caveat on prior entry)"
+   },
+   {
+    "pmid": "40744015",
+    "doi": "10.1016/j.stem.2025.07.004",
+    "author_label": "committed preadipocytes",
+    "species_normalized": "mouse",
+    "depot_category": "dermal_skin_adipose",
+    "input_material": "whole cells (SVF, lineage-sorted APCs; scRNA-seq); also FACS-sorted for qPCR/functional assays",
+    "source_locator": "Results, subsection 'Identification of an uncharacterized immature preadipocyte population in the skin': 'Cells in cluster 7, characterized by committed preadipocyte and undefined group 3 identities, represented committed preadipocytes...'; marker text: 'Altogether, our single-cell data recapitulated two major APC populations:...preadipocytes (clusters 3, 7, 8, and 11 expressing Icam1 and Cd9; Figure 2C). Cluster 7 included a small subset expressing Fabp4 and Pparg, markers of committed preadipocytes (Figure 2C; S2E).' Protein markers from Results, 'Enrichment and functional characterization of skin APC populations' and Figure S3A/S3B."
+   },
+   {
+    "pmid": "40780446",
+    "doi": "10.1016/j.molmet.2025.102231",
+    "author_label": "ASC3",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (CD45- stromal vascular fraction, re-clustered Pdgfra-expressing subset)",
+    "source_locator": "Results section 2.5, Figure 6B, 6E, 6F, 6H; Discussion section 3, paragraph on ASC3"
+   },
+   {
+    "pmid": "41217838",
+    "doi": "10.1172/jci198387",
+    "author_label": "cluster 1 (adipogenic)",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei (snRNA-Seq)",
+    "source_locator": "Figure 3D (GSEA pathway table for adipocyte cluster 1, listing '# of genes' and 'Leading edge genes' columns: upregulated Fatty acid metabolism 33/67 [CD36, FASN, ELOVL5], upregulated Oxidative phosphorylation 18/49 [CS, PDHX, DLAT, MDH1], downregulated Inflammatory response 38/83 [TLR1, CD14, IL15, ICAM1]); cluster label 'cluster 1 (adipogenic)' also given in Results text immediately preceding the Figure 3D citation; same table reproduced for the disease comparison in Figure 4I, panel 'Cluster 1'."
+   },
+   {
+    "pmid": "41217838",
+    "doi": "10.1172/jci198387",
+    "author_label": "cluster 2 (pro-inflammatory)",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei (snRNA-Seq)",
+    "source_locator": "Figure 3D (GSEA pathway table for adipocyte cluster 2, listing '# of genes' and 'Leading edge genes' columns: upregulated Inflammatory response 38/83 [TLR1, CD14, IL15, ICAM1], upregulated IFN\u03b3/\u03b1 response 53/104 [IFI44, RSAD2, MX1, BST2], downregulated Fatty acid metabolism 33/67 [CD36, FASN, ELOVL5]); cluster label 'cluster 2 (pro-inflammatory)' also given in Results text immediately preceding the Figure 3D citation; same table reproduced for the disease comparison in Figure 4I, panel 'Cluster 2'."
+   },
+   {
+    "pmid": "41731620",
+    "doi": "10.1186/s13293-026-00859-z",
+    "author_label": "preA",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Results main text (defines 'preA' = preadipocyte, citing refs [26,49]) plus Additional file 1, Supplementary Figure S3, panel B (dot plot); panel A is the UMAP showing the preA cluster label"
+   },
+   {
+    "pmid": "37488415",
+    "doi": "10.1038/s43587-023-00460-8",
+    "author_label": "AP2",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (stromal vascular fraction, SVF); scRNA-seq performed on SVF only, not on mature adipocytes",
+    "source_locator": "Main text, Results, section 'Crtc2 promotes age-induced remodeling of adipose tissues', sentence 'we divided APs into two subsets: multipotent AP1-expressing Dpp4 and committed AP2-expressing preadipocyte markers such as Icam1 and Fabp4' (page 12 of retrieved PDF); cell count from Fig. 5 legend, panel f"
+   }
+  ],
+  "n_member_labels": 11,
+  "stable_across_runs": [
+   "FABP4",
+   "GGT5",
+   "ICAM1"
+  ],
+  "v4_only_markers": [
+   "CD14",
+   "CD36",
+   "ELOVL5",
+   "FASN",
+   "IL15",
+   "PPARG",
+   "TLR1"
+  ],
+  "n_v4_markers": 10,
+  "transcription_note": null
+ },
+ {
+  "population_id": 2,
+  "working_name": "MGP+/CXCL14+/APOD+ adipose precursor cell (APC)",
+  "mapping_type": "PARTIAL",
+  "core_markers": [],
+  "contested": [
+   {
+    "gene_symbol": "MGP",
+    "n_members_with_gene": 9,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "APOD",
+    "n_members_with_gene": 8,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "CXCL14",
+    "n_members_with_gene": 8,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "CFD",
+    "n_members_with_gene": 5,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "DCN",
+    "n_members_with_gene": 5,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "CXCL12",
+    "n_members_with_gene": 3,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "GSN",
+    "n_members_with_gene": 3,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "IGF1",
+    "n_members_with_gene": 3,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "MT1M",
+    "n_members_with_gene": 3,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "MT2A",
+    "n_members_with_gene": 3,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "WISP2",
+    "n_members_with_gene": 3,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "ADH1B",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "APOE",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "C7",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "LUM",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "MARCHF3",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "MFAP4",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "MT1A",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "MT1X",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "MYOC",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   },
+   {
+    "gene_symbol": "SLC1A3",
+    "n_members_with_gene": 2,
+    "n_total_members": 15
+   }
+  ],
+  "n_idiosyncratic": 47,
+  "pass1_counterpart": "CXCL14+/APOD+ adipose progenitor",
+  "marker_overlap_with_pass1": 0.75,
+  "support_set_jaccard": 0.5556,
+  "reporting_studies": [
+   {
+    "pmid": "35725971",
+    "doi": "10.1038/s41421-022-00402-5",
+    "author_label": "c0",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Figure 3b (top-10 gene block under the blue 'c0' color bar, heatmap of the four ASC subpopulations); cell count from Figure 1b legend, cluster c0"
+   },
+   {
+    "pmid": "35725971",
+    "doi": "10.1038/s41421-022-00402-5",
+    "author_label": "c5",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Figure 3b (top-10 gene block under the brown 'c5' color bar, heatmap of the four ASC subpopulations); cell count from Figure 1b legend, cluster c5"
+   },
+   {
+    "pmid": "32066997",
+    "doi": "10.1038/s42255-019-0152-6",
+    "author_label": "SP1",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (SVF, CD34+ progenitor subset)",
+    "source_locator": "Results, 'Subcutaneous adipocyte progenitors and their role in metabolic conditions', paragraph 1 ('SP1 and SP3 cells expressed pre-adipocyte/adipose stem cell markers (e.g. MGP, APOD, CXCL14, WISP2)'); Figure 5a-b"
+   },
+   {
+    "pmid": "32066997",
+    "doi": "10.1038/s42255-019-0152-6",
+    "author_label": "SP3",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (SVF, CD34+ progenitor subset)",
+    "source_locator": "Results, 'Subcutaneous adipocyte progenitors and their role in metabolic conditions', paragraph 1; Figure 5a-b"
+   },
+   {
+    "pmid": "32066997",
+    "doi": "10.1038/s42255-019-0152-6",
+    "author_label": "VP4",
+    "species_normalized": "human",
+    "depot_category": "omental_human",
+    "input_material": "whole cells (SVF, CD34+ progenitor subset)",
+    "source_locator": "Results, 'Validation of depot independent adipocyte progenitors in CD34+ sorted cells', paragraph 1 ('VP4 included cells enriched for genes such as APOD, CXCL14, DPT, GPX3, MGP, EIF1, C1S and ADH1B'); Figure 6a-b"
+   },
+   {
+    "pmid": "39694039",
+    "doi": "10.1016/j.cmet.2024.11.006",
+    "author_label": "vAdipo3 (SAA1)",
+    "species_normalized": "human",
+    "depot_category": "omental_human",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Table S9, sheet 'Visceral Adipo' (top 20 marker genes per vAdipo subpopulation, related to Figures 3, S3, and S4); cluster identity and depot-specificity described in Results, section 'Adipocyte function is strongly associated with metabolic health'; Figure 3B (UMAP) and 3C (dot plot)"
+   },
+   {
+    "pmid": "40038777",
+    "doi": "10.1186/s13287-025-04234-4",
+    "author_label": "AC1 (CPA)",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (ADRCs = stromal vascular fraction cells, isolated fresh then methanol-fixed for scRNAseq; not nuclei)",
+    "source_locator": "Fig. 1E (DimPlot label 'AC1 (CPA)', pie chart '59.2%'); marker gene list from Supplementary Table 2 (Additional File 1), rows for cluster 'AC1', top 10 of 400 genes ranked by avg_diff (FindMarkers output, Seurat)"
+   },
+   {
+    "pmid": "40038777",
+    "doi": "10.1186/s13287-025-04234-4",
+    "author_label": "AC4 (CPA)",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "whole cells (ADRCs/stromal vascular fraction, methanol-fixed; not nuclei)",
+    "source_locator": "Fig. 1E (DimPlot label 'AC4 (CPA)', pie chart '7.0%'); marker gene list from Supplementary Table 2 (Additional File 1), rows for cluster 'AC4', top 10 of 400 genes"
+   },
+   {
+    "pmid": "40038777",
+    "doi": "10.1186/s13287-025-04234-4",
+    "author_label": "AC5 (CPA)",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "whole cells (ADRCs/stromal vascular fraction, methanol-fixed; not nuclei)",
+    "source_locator": "Fig. 1E (DimPlot label 'AC5 (CPA)', pie chart '4.5%'); marker gene list from Supplementary Table 2 (Additional File 1), rows for cluster 'AC5', top 10 of 400 genes"
+   },
+   {
+    "pmid": "40038777",
+    "doi": "10.1186/s13287-025-04234-4",
+    "author_label": "AC6 (APC)",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "whole cells (ADRCs/stromal vascular fraction, methanol-fixed; not nuclei)",
+    "source_locator": "Fig. 1E (DimPlot label 'AC6 (APC)', pie chart '3.2%'); sex-difference statistic from Fig. 2E and Results text; marker gene list from Supplementary Table 2 (Additional File 1), rows for cluster 'AC6', top 10 of 400 genes"
+   },
+   {
+    "pmid": "40038777",
+    "doi": "10.1186/s13287-025-04234-4",
+    "author_label": "AC7 (APC)",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "whole cells (ADRCs/stromal vascular fraction, methanol-fixed; not nuclei)",
+    "source_locator": "Fig. 1E (DimPlot label 'AC7 (APC)', pie chart '0.6%'); donor-specificity statement in Results text (paragraph on NOVA1/AC clustering); marker gene list from Supplementary Table 2 (Additional File 1), rows for cluster 'AC7', top 10 of 400 genes"
+   },
+   {
+    "pmid": "40273250",
+    "doi": "10.1126/science.adj0430",
+    "author_label": "CP-1",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (Lin- SVF, FACS/negative selection of CD45-/CD31-/Ter119- cells)",
+    "source_locator": "Results, same marker-description paragraph; Figure 3I; fig. S5L"
+   },
+   {
+    "pmid": "40273250",
+    "doi": "10.1126/science.adj0430",
+    "author_label": "CP-2",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (Lin- SVF, FACS/negative selection of CD45-/CD31-/Ter119- cells)",
+    "source_locator": "Results, same marker-description paragraph; Figure 3J; fig. S5L"
+   },
+   {
+    "pmid": "40791725",
+    "doi": "10.1101/2025.07.11.25331390",
+    "author_label": "Ad3",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei",
+    "source_locator": "Figure 2e (heatmap of average expression of top protein-coding adipocyte subcell-type marker genes, one column-pair per subcell-type, diagonal blocks); subcluster identity and UMAP shown in Figure 2c; the count of eight adipocyte subcell-types is stated in Results, page 8, paragraph 'Adipocyte heterogeneity drives subcell-type composition'."
+   },
+   {
+    "pmid": "37503028",
+    "doi": "10.21203/rs.3.rs-3097605/v1",
+    "author_label": "Adipocyte 5 (\"Remodeling\")",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results, 'Adipocyte Heterogeneity' subsection, paragraph 1 (page 6); also depicted in Figure 3A dotplot under the 'Re-modelling' bracket"
+   }
+  ],
+  "n_member_labels": 15,
+  "stable_across_runs": [
+   "ADH1B",
+   "APOD",
+   "CFD",
+   "CXCL12",
+   "CXCL14",
+   "DCN",
+   "GSN",
+   "LUM",
+   "MFAP4",
+   "MGP",
+   "MYOC",
+   "WISP2"
+  ],
+  "v4_only_markers": [
+   "APOE",
+   "C7",
+   "IGF1",
+   "MARCHF3",
+   "MT1A",
+   "MT1M",
+   "MT1X",
+   "MT2A",
+   "SLC1A3"
+  ],
+  "n_v4_markers": 21,
+  "transcription_note": null
+ },
+ {
+  "population_id": 6,
+  "working_name": "APOE+/CD36+/ABCG1+ lipid-scavenging adipocyte",
+  "mapping_type": "PARTIAL",
+  "core_markers": [],
+  "contested": [
+   {
+    "gene_symbol": "APOE",
+    "n_members_with_gene": 7,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "CD36",
+    "n_members_with_gene": 4,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "FABP4",
+    "n_members_with_gene": 4,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "ABCG1",
+    "n_members_with_gene": 3,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "FOS",
+    "n_members_with_gene": 2,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "HIF1A",
+    "n_members_with_gene": 2,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "JUN",
+    "n_members_with_gene": 2,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "PPARG",
+    "n_members_with_gene": 2,
+    "n_total_members": 8
+   }
+  ],
+  "n_idiosyncratic": 12,
+  "pass1_counterpart": "APOE+/FABP4+ committed preadipocyte",
+  "marker_overlap_with_pass1": 0.625,
+  "support_set_jaccard": 0.4545,
+  "reporting_studies": [
+   {
+    "pmid": "31767614",
+    "doi": "10.26508/lsa.201900561",
+    "author_label": "Cluster 4 (PA)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells; Sca1pos/CD31neg/CD45neg/Ter119neg-sorted APC gate, not mature adipocytes",
+    "source_locator": "Results, paragraph following cluster 6 description ('In contrast, cluster 4 exhibited elevated expression of the mature adipocyte markers, Apoe and Fabp4...'), p.6; Figure 3C (marker gene panels: Sult1e1, Apoe, Igf1, Fabp4, Jun, Trf, Fos); Figure 4A (surface markers); Figure 1F (proportions)"
+   },
+   {
+    "pmid": "34298199",
+    "doi": "10.1016/j.molmet.2021.101307",
+    "author_label": "Adip2",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (snRNA-seq of nuclei isolated from the floating mature adipocyte fraction)",
+    "source_locator": "Results, section 3.3, paragraph beginning 'The adipocyte nuclei clusters expressed adipocyte-specific genes...'; markers and cluster definition also shown in Figure 3A-C (Figure 3B t-SNE marker plots; Figure 3C pathway/DEG heatmap for Adip1 vs Adip2 at PND56); Jun/Fos specifically attributed to Adip2 'MAP kinase signaling' in the same paragraph"
+   },
+   {
+    "pmid": "36376273",
+    "doi": "10.1038/s41421-022-00466-3",
+    "author_label": "sPreA",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Results, 'Distinct progenitor clusters identified in VAT and SAT', paragraph 2 (clusters 1, 4; text: 'with elevated expression of FABP4 and APOE, suggesting a higher commitment to becoming mature adipocytes...predominantly existed in SAT and therefore were annotated as subcutaneous preadipocytes (sPreA)'); Methods, 'Unsupervised clustering and marker identification' ('subcutaneous preadipocytes (FABP4, APOE)'); Fig. 2a and Fig. 3a UMAP legends"
+   },
+   {
+    "pmid": "32066997",
+    "doi": "10.1038/s42255-019-0152-6",
+    "author_label": "SP2",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (SVF, CD34+ progenitor subset)",
+    "source_locator": "Results, 'Subcutaneous adipocyte progenitors and their role in metabolic conditions', paragraph 1 ('SP2 showed signatures of a more mature adipocyte progenitor cell (e.g. APOE, FABP4, CEBPB and CD36)'); Figure 5a-b"
+   },
+   {
+    "pmid": "38729152",
+    "doi": "10.1016/j.cmet.2024.04.017",
+    "author_label": "hPreAs (PreAs)",
+    "species_normalized": "human",
+    "depot_category": "multi_depot_pooled",
+    "input_material": "whole cells; SVF Lin\u2013 (CD45\u2013/CD31\u2013) fraction of the stromal vascular fraction; mature adipocytes explicitly discarded prior to sequencing",
+    "source_locator": "Main text, Results section 'Human adipose-derived stromal cells are highly heterogeneous at the single-cell level' (page 5); marker list 'APOC' transcribed exactly as printed (possible truncation/typo for APOC1, not corrected per rubric); marker list and cell count in Figure 2C and 2F"
+   },
+   {
+    "pmid": "33378646",
+    "doi": "10.1016/j.cmet.2020.12.004",
+    "author_label": "lipid-scavenging adipocytes (LSA)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "nuclei",
+    "source_locator": "Results text (paragraph describing re-clustering of the adipocyte cluster), explicitly cited by the authors to Figure 5C. Full marker/DEG list stated by authors to be in supplementary Table S6, not retrieved. An additional marker, Nnat, is named separately in the Figure 5G legend as the 'LSA marker' used for immunofluorescence validation: \"Expression of Nnat (LSA marker, in red) and Acly (LGA marker, in blue) in adipocytes.\""
+   },
+   {
+    "pmid": "33378646",
+    "doi": "10.1016/j.cmet.2020.12.004",
+    "author_label": "stressed lipid-scavenging adipocytes (SLSA)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "nuclei",
+    "source_locator": "Results text (paragraph describing re-clustering of the adipocyte cluster and its obesity-responsive dynamics), explicitly cited by the authors to Figure 5C (marker genes) and Figures 5E, 5F, S6D, S6E (obesity-associated proportion shift). Full marker/DEG list stated by authors to be in supplementary Table S6, not retrieved."
+   },
+   {
+    "pmid": "41520334",
+    "doi": "10.1016/j.celrep.2025.116801",
+    "author_label": "SLTA",
+    "species_normalized": "mouse",
+    "depot_category": "mesenteric_mouse",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results text (mWAT snRNA-seq subsection), corresponding to Figure 2B (cluster identification) and Figure 2C (marker gene panel); cross-referenced against S\u00e1rv\u00e1ri et al. eWAT dataset in Figure 2D"
+   }
+  ],
+  "n_member_labels": 8,
+  "stable_across_runs": [
+   "ABCG1",
+   "APOE",
+   "CD36",
+   "FABP4",
+   "HIF1A"
+  ],
+  "v4_only_markers": [
+   "FOS",
+   "JUN",
+   "PPARG"
+  ],
+  "n_v4_markers": 8,
+  "transcription_note": null
+ },
+ {
+  "population_id": 7,
+  "working_name": "FBN1+/CD55+/MFAP5+ adipose-derived stem cell (ASC)",
+  "mapping_type": "PARTIAL",
+  "core_markers": [],
+  "contested": [
+   {
+    "gene_symbol": "FBN1",
+    "n_members_with_gene": 6,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "CD55",
+    "n_members_with_gene": 5,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "MFAP5",
+    "n_members_with_gene": 5,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "CD34",
+    "n_members_with_gene": 4,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "ANXA3",
+    "n_members_with_gene": 3,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "CD121A",
+    "n_members_with_gene": 2,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "FSTL1",
+    "n_members_with_gene": 2,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "PI15",
+    "n_members_with_gene": 2,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "PRG4",
+    "n_members_with_gene": 2,
+    "n_total_members": 8
+   },
+   {
+    "gene_symbol": "TIMP2",
+    "n_members_with_gene": 2,
+    "n_total_members": 8
+   }
+  ],
+  "n_idiosyncratic": 31,
+  "pass1_counterpart": "COL1A1+/COL3A1+/DCN+ fibro-inflammatory progenitor",
+  "marker_overlap_with_pass1": 0.8,
+  "support_set_jaccard": 0.4444,
+  "reporting_studies": [
+   {
+    "pmid": "31767614",
+    "doi": "10.26508/lsa.201900561",
+    "author_label": "Cluster 1 (ASC)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells; Sca1pos/CD31neg/CD45neg/Ter119neg-sorted stromal-vascular-fraction cells (adipose progenitor cell gate), not mature adipocytes",
+    "source_locator": "Results, 'Expression analysis broadly categorized APC subpopulations into two clusters...' paragraph (marker genes); Figure 2C (marker gene panels: Cd55, Cd34, Fbn1, Anxa3, Mfap5, Timp2); Figure 4A/4B (Cd55/Cd81 surface gating); Figure 1F (cluster proportion pie charts)"
+   },
+   {
+    "pmid": "31767614",
+    "doi": "10.26508/lsa.201900561",
+    "author_label": "Cluster 5 (ASC)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells; Sca1pos/CD31neg/CD45neg/Ter119neg-sorted APC gate, not mature adipocytes",
+    "source_locator": "Results, differential expression paragraph 'Next, we performed differential expression (DE) analysis using clusters 1 and 5...' (p.5); Figure 3A (marker gene panels: Cd34, Cd55, Sparc, Cyr61, Klf2, Fstl1, Fbn1, Cfl1, Anxa3, Mt1, Mt2); Figure 4A (surface markers); Figure 1F (proportions)"
+   },
+   {
+    "pmid": "31767614",
+    "doi": "10.26508/lsa.201900561",
+    "author_label": "Cluster 6 (PA)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells; Sca1pos/CD31neg/CD45neg/Ter119neg-sorted APC gate, not mature adipocytes",
+    "source_locator": "Results, 'Similar analyses were performed using PA clusters 2, 4, and 6' paragraph, p.6; Figure 3B (marker gene panels: Meg3, Mfap5, Fbn1, Thy1, Fstl1, Col6a2); Figure 4A (surface markers); Figure 1F (proportions)"
+   },
+   {
+    "pmid": "32643301",
+    "doi": "10.1002/jcsm.12596",
+    "author_label": "adipose stem cell (dup 1)",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (FACS-sorted viable single cells from enzymatically dissociated whole tissue)",
+    "source_locator": "Supplementary Figure S6, panel 'Cluster 7: adipose stem cell' (page 11 of supplementary PDF JCSM-11-1351-s002.pdf)"
+   },
+   {
+    "pmid": "35725971",
+    "doi": "10.1038/s41421-022-00402-5",
+    "author_label": "c3",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_human",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Figure 3b (top-10 gene block under the red 'c3' color bar, heatmap of the four ASC subpopulations); cell count from Figure 1b legend, cluster c3"
+   },
+   {
+    "pmid": "33878347",
+    "doi": "10.1016/j.devcel.2021.03.026",
+    "author_label": "APC",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (total SVF)",
+    "source_locator": "Results, 'Emergence of Aging-dependent Regulatory Cells (ARC)...' section, paragraph on new markers (citing Fig. S1c) for Pi15/CD121a/Pref-1; Discussion, 'Identification of Adipose Precursor Populations...' section, paragraph on APC, for Pref-1/Pdgfr\u03b1"
+   },
+   {
+    "pmid": "33878347",
+    "doi": "10.1016/j.devcel.2021.03.026",
+    "author_label": "MSC",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (total SVF, Lin+ and Lin- combined, no FACS depletion prior to scRNA-seq)",
+    "source_locator": "Results, 'Emergence of Aging-dependent Regulatory Cells (ARC)...' section, paragraph on new markers (citing Fig. S1c) for CD34/Pi15/CD121a/Gpr1; Discussion, 'Identification of Adipose Precursor Populations and their Specific Markers' section, paragraph on MSC, for Fn1/CD55/Gpr1"
+   },
+   {
+    "pmid": "40038777",
+    "doi": "10.1186/s13287-025-04234-4",
+    "author_label": "AC2 (APC)",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "whole cells (ADRCs/stromal vascular fraction, methanol-fixed; not nuclei)",
+    "source_locator": "Fig. 1E (DimPlot label 'AC2 (APC)', pie chart '12.5%'); marker gene list from Supplementary Table 2 (Additional File 1), rows for cluster 'AC2', top 10 of 400 genes"
+   }
+  ],
+  "n_member_labels": 8,
+  "stable_across_runs": [
+   "CD121A",
+   "CD34",
+   "CD55",
+   "FBN1",
+   "FSTL1",
+   "MFAP5",
+   "PI15",
+   "PRG4"
+  ],
+  "v4_only_markers": [
+   "ANXA3",
+   "TIMP2"
+  ],
+  "n_v4_markers": 10,
+  "transcription_note": "Marker symbols are reported exactly as the source authors wrote them. Two entries in this catalogue therefore carry non-current symbols that we deliberately did not silently correct: CD121a (PMID 33878347), a protein-level alias for the IL1R1 gene product, and Adgfr5 (PMID 36731652), which is printed as such in the source and is most likely the authors' rendering of ADGRF5/GPR116. Preserving them is a consequence of the copy-never-infer rule that governs the extraction, and a reader mapping these signatures onto their own data should resolve both against current nomenclature."
+ },
+ {
+  "population_id": 8,
+  "working_name": "DPP4+/PI16+ adipose stem cell",
+  "mapping_type": "FULL",
+  "core_markers": [
+   "DPP4",
+   "PI16"
+  ],
+  "contested": [
+   {
+    "gene_symbol": "CAV1",
+    "n_members_with_gene": 2,
+    "n_total_members": 7
+   },
+   {
+    "gene_symbol": "COL4A2",
+    "n_members_with_gene": 2,
+    "n_total_members": 7
+   },
+   {
+    "gene_symbol": "G0S2",
+    "n_members_with_gene": 2,
+    "n_total_members": 7
+   },
+   {
+    "gene_symbol": "ICAM1",
+    "n_members_with_gene": 2,
+    "n_total_members": 7
+   },
+   {
+    "gene_symbol": "WNT2",
+    "n_members_with_gene": 2,
+    "n_total_members": 7
+   }
+  ],
+  "n_idiosyncratic": 3,
+  "pass1_counterpart": "DPP4+/CD55+/PDGFRA+ adipose stem cell",
+  "marker_overlap_with_pass1": 0.429,
+  "support_set_jaccard": 0.1579,
+  "reporting_studies": [
+   {
+    "pmid": "29937373",
+    "doi": "10.1016/j.cmet.2018.05.025",
+    "author_label": "ASC 1 (dup 1)",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (lineage-negative [Lin-] stromal vascular fraction, MACS-sorted)",
+    "source_locator": "Figure 5B legend: violin plots of Pi16, Dpp4, Icam1, Col4a2 in iWAT ASC1/ASC2, plus text 'Differential expression of Cav1 and G0s2 suggests that cluster ASC 1 is more poised for adipogenesis.' Results text, section 'ADRB3 activation for three days produces minimal de novo adipogenesis...inguinal WAT', paragraph 1. Note: the legend/text state these 6 genes collectively distinguish ASC1 from ASC2 but do not specify, for each gene, which cluster has higher expression (only that Pi16/Dpp4 covary and Icam1/Col4a2 covary); direction not assigned per cluster in the source. Cell counts from Figure 5A legend; full DEG list cited as Table S3 (not retrieved)."
+   },
+   {
+    "pmid": "29937373",
+    "doi": "10.1016/j.cmet.2018.05.025",
+    "author_label": "ASC 2 (dup 1)",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (lineage-negative [Lin-] stromal vascular fraction, MACS-sorted)",
+    "source_locator": "Figure 5B legend and Results text; see ASC 1 (iWAT) entry for full citation and direction-ambiguity caveat"
+   },
+   {
+    "pmid": "31023895",
+    "doi": "10.1126/science.aav2501",
+    "author_label": "Group 1 (\"interstitial progenitors\")",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (stromal vascular cells, SVCs; mature adipocytes removed by centrifugation, CD45+ leukocytes depleted)",
+    "source_locator": "Results, 'Profiling and trajectory analysis of adipose progenitors' subsection, paragraph 2; markers illustrated in Fig. 1B and figs. S2-S3 (not retrieved)"
+   },
+   {
+    "pmid": "39465352",
+    "doi": "10.1038/s12276-024-01252-9",
+    "author_label": "AFEC (adipogenic factor-expressing cells); clusters C5 (control) and C8 (CL-treated)",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (PDGFRA+-sorted stromal-vascular fraction, not nuclei)",
+    "source_locator": "Results, section 'scRNA-seq reveals the cellular heterogeneity of CL-treated PDGFRA+ progenitors' (Bmp1-4/7, Wnt2) and section 'PDGFRA+ cells expressing DPP4 have the characteristics of nonadipogenic niche cells' (Dpp4, Timp3, Pi16); Fig. 2d, e; Fig. 3a-d"
+   },
+   {
+    "pmid": "39579770",
+    "doi": "10.1016/j.celrep.2024.114945",
+    "author_label": "progenitors",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (stromal vascular fraction, SVF; scRNA-seq)",
+    "source_locator": "Results, section 'Impact of PPAR\u03b3 agonist treatment on adipocyte progenitor cells', paragraph describing Figure 3B-3C; marker genes specifically named in Figure 3 legend, panel (C)"
+   },
+   {
+    "pmid": "39579770",
+    "doi": "10.1016/j.celrep.2024.114945",
+    "author_label": "progenitors (dup 1)",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (stromal vascular fraction, SVF; scRNA-seq)",
+    "source_locator": "Results, section 'Impact of PPAR\u03b3 agonist treatment on adipocyte progenitor cells', sentence '...iWAT had very clear separation between progenitors and preadipocytes (Figure S4C)'; figure panel is Figure S4B (subclusters) / Figure S4C (marker gene expression), but the supplementary figure legend text for Figure S4 was not retrieved, so the marker gene identity for this specific iWAT panel is inferred from the immediately preceding sentence in the main text, which states the same four markers (Pi16, Dpp4, Icam1, Cd36) were checked to confirm progenitor/preadipocyte identity generally, before differentiating the eWAT (Figure 3C) and iWAT (Figure S4C) results in the next two sentences"
+   },
+   {
+    "pmid": "40836034",
+    "doi": "10.1038/s44318-025-00524-y",
+    "author_label": "APC P1",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (scRNA-seq of iWAT SVF)",
+    "source_locator": "Results text, subsection 'Loss of BBS8 drives P1 cells towards a fibrogenic fate', paragraph beginning 'To analyze the fibrogenic switch...'; markers also shown in Figure 4B (violin plots) and 4D (UMAP overlay)"
+   }
+  ],
+  "n_member_labels": 7,
+  "stable_across_runs": [
+   "DPP4",
+   "PI16",
+   "WNT2"
+  ],
+  "v4_only_markers": [
+   "CAV1",
+   "COL4A2",
+   "G0S2",
+   "ICAM1"
+  ],
+  "n_v4_markers": 7,
+  "transcription_note": null
+ },
+ {
+  "population_id": 10,
+  "working_name": "FASN+/ACLY+/ACSS2+ de novo lipogenesis-committed adipocyte",
+  "mapping_type": "PARTIAL",
+  "core_markers": [],
+  "contested": [
+   {
+    "gene_symbol": "ACLY",
+    "n_members_with_gene": 5,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "FASN",
+    "n_members_with_gene": 5,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "ACACA",
+    "n_members_with_gene": 2,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "ACSS2",
+    "n_members_with_gene": 2,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "CES1F",
+    "n_members_with_gene": 2,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "GSTA3",
+    "n_members_with_gene": 2,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "SCD1",
+    "n_members_with_gene": 2,
+    "n_total_members": 6
+   }
+  ],
+  "n_idiosyncratic": 18,
+  "pass1_counterpart": "FASN+/ACLY+ DNL-active adipocyte",
+  "marker_overlap_with_pass1": 0.714,
+  "support_set_jaccard": 0.3636,
+  "reporting_studies": [
+   {
+    "pmid": "36993336",
+    "doi": "10.1101/2023.03.20.533514",
+    "author_label": "DNL-high",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (snRNA-seq, mature adipocyte population within reintegrated adipocyte compartment)",
+    "source_locator": "Results, 'Single nucleus RNA sequencing uncovers adipocyte heterogeneity' section: \"DNL-high cells uniquely expressed Ces1f and Gsta3 and activated high levels of DNL pathway genes (i.e., Fasn, Acss2 and Acly) upon cold exposure (Figure 5F).\"; also Results 'Aging dysregulates gene programming in adipocyte populations' section and Figure 6A, 6G-H"
+   },
+   {
+    "pmid": "38775132",
+    "doi": "10.7554/elife.87756",
+    "author_label": "DNL-high",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (snRNA-seq; re-integrated adipocyte-only subset)",
+    "source_locator": "Results, 'Single-nucleus RNA sequencing uncovers adipocyte heterogeneity' section, paragraph beginning 'To focus on adipocyte responses...' (sentence beginning 'DNL-high cells uniquely expressed...'); DNL pathway gene activation and mAd5 comparison in Discussion; population naming in Figure 5 legend, panel D"
+   },
+   {
+    "pmid": "38900636",
+    "doi": "10.1016/j.celrep.2024.114390",
+    "author_label": "CP",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (SVF single-cell suspension, 10x Genomics)",
+    "source_locator": "Results, subsection 'scRNA-seq analyses reveal ILC2 cell recruitment in sWAT of TAN mice'; cluster first named in the sentence listing subclusters identified in Figure 5A ('committed preadipocytes (CP) in initial states of differentiation'); marker gene list given two paragraphs later in the sentence beginning 'We also observed a highly CP (Figure 5A) cluster...'; cite mark '20' after the marker list refers to Emont et al. 2022 Nature (ref 20 in bibliography)"
+   },
+   {
+    "pmid": "40196457",
+    "doi": "10.3389/fendo.2025.1562431",
+    "author_label": "A0",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "nuclei",
+    "source_locator": "Results, section 3.3, page 7-8 (paragraphs describing DNL genes shared with A2, the distinguishing Ppargc1a expression, and futile-cycling gene enrichment); Figure 3D (violin plot, Ppargc1a); Figure 3E (cloud/density plots, Dgat1, Dgat2, Pnpla2, Acadl, Acadm, Lipe); Figures 3F-G (KEGG/GO bubble plots); Supplementary Figure 2A (classical markers) and Supplementary Figure 2B (UCP1-independent thermogenesis heatmap, Atp2a2/Dgat1/Dgat2/Slc6a8/Ckm), as described in main text (supplementary files themselves not independently retrieved)"
+   },
+   {
+    "pmid": "40196457",
+    "doi": "10.3389/fendo.2025.1562431",
+    "author_label": "A2",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "nuclei",
+    "source_locator": "Results, section 3.3, page 7-8 (paragraphs describing DNL genes shared with A0, and the Igf1/Cish high-expression statement); Figure 3D (violin plot, Igf1 and Cish panels); Figures 3F-G (KEGG/GO bubble plots)"
+   },
+   {
+    "pmid": "42153974",
+    "doi": "10.1002/advs.75678",
+    "author_label": "Ad2",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Figure 4C legend (marker genes); functional annotation from Results, paragraph beginning 'Re-clustering of adipocytes (n = 22360) revealed five subpopulations (Figure 4B,C)'"
+   }
+  ],
+  "n_member_labels": 6,
+  "stable_across_runs": [
+   "ACLY",
+   "ACSS2",
+   "CES1F",
+   "FASN",
+   "GSTA3"
+  ],
+  "v4_only_markers": [
+   "ACACA",
+   "SCD1"
+  ],
+  "n_v4_markers": 7,
+  "transcription_note": null
+ },
+ {
+  "population_id": 11,
+  "working_name": "UCP1+/CIDEA+/PPARGC1A+ thermogenic beige adipocyte",
+  "mapping_type": "FULL",
+  "core_markers": [
+   "PPARGC1A",
+   "UCP1"
+  ],
+  "contested": [
+   {
+    "gene_symbol": "CIDEA",
+    "n_members_with_gene": 4,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "PRDM16",
+    "n_members_with_gene": 3,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "EBF2",
+    "n_members_with_gene": 2,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "ESRRG",
+    "n_members_with_gene": 2,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "GK",
+    "n_members_with_gene": 2,
+    "n_total_members": 6
+   },
+   {
+    "gene_symbol": "PPARGC1B",
+    "n_members_with_gene": 2,
+    "n_total_members": 6
+   }
+  ],
+  "n_idiosyncratic": 16,
+  "pass1_counterpart": "UCP1+/CIDEA+ thermogenic adipocyte",
+  "marker_overlap_with_pass1": 0.875,
+  "support_set_jaccard": 0.5556,
+  "reporting_studies": [
+   {
+    "pmid": "36993336",
+    "doi": "10.1101/2023.03.20.533514",
+    "author_label": "beige",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (snRNA-seq, mature adipocyte population within reintegrated adipocyte compartment)",
+    "source_locator": "Results, 'Single nucleus RNA sequencing uncovers adipocyte heterogeneity' section, paragraph beginning 'To focus on adipocyte responses...'; Figure 5D-F legend"
+   },
+   {
+    "pmid": "38775132",
+    "doi": "10.7554/elife.87756",
+    "author_label": "beige",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (snRNA-seq; re-integrated adipocyte-only subset of the full iWAT snRNA-seq dataset)",
+    "source_locator": "Results, 'Single-nucleus RNA sequencing uncovers adipocyte heterogeneity' section, paragraph beginning 'To focus on adipocyte responses...'; population naming and cluster count also in Figure 5 legend, panel D"
+   },
+   {
+    "pmid": "40094187",
+    "doi": "10.1161/jaha.124.038465",
+    "author_label": "brown adipocytes",
+    "species_normalized": "human",
+    "depot_category": "epicardial_human",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results, section 'Noncontractile Smooth Muscle-Like Cells in Aortic PVAT Express Pericyte Markers', paragraph beginning 'Protein tyrosine phosphatase receptor type C (CD45) expressing immune cells were removed...' (references Figure 1B, 1D)"
+   },
+   {
+    "pmid": "40094187",
+    "doi": "10.1161/jaha.124.038465",
+    "author_label": "brown adipocytes (dup 1)",
+    "species_normalized": "human",
+    "depot_category": "other_unclear",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Figure 1 legend, panel D"
+   },
+   {
+    "pmid": "40476003",
+    "doi": "10.3389/fcell.2025.1578180",
+    "author_label": "A3",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (snRNA-seq)",
+    "source_locator": "Results, section 3.4, paragraphs 2-3; Figure 4E (canonical browning markers), Figure 4F (feature plots of Ucp1/Ppargc1\u03b1/Ppargc1\u03b2/Cidea across timepoints); Supplementary Figure S1C (Atp5k, Atp5e, Coc7a1, Lgr6, not independently inspected)"
+   },
+   {
+    "pmid": "31644425",
+    "doi": "10.7554/elife.49501",
+    "author_label": "Type nine (cluster 9) \u2014 17-cluster aggregated analysis",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "nuclei (SNAP-seq, single-nuclei RNA-seq of mature adipocytes)",
+    "source_locator": "Results, section 'Identification of a cold-responsive thermogenic \u2018beige\u2019 adipocyte population by SNAP-seq'; Figure 4A, 4C, 4D, 4E, 4F; Figure 4\u2014figure supplement 1; Figure 5A; Discussion paragraph beginning 'To more deeply interrogate the effect of IL10 signaling'"
+   }
+  ],
+  "n_member_labels": 6,
+  "stable_across_runs": [
+   "CIDEA",
+   "ESRRG",
+   "GK",
+   "PPARGC1A",
+   "PPARGC1B",
+   "PRDM16",
+   "UCP1"
+  ],
+  "v4_only_markers": [
+   "EBF2"
+  ],
+  "n_v4_markers": 8,
+  "transcription_note": null
+ },
+ {
+  "population_id": 12,
+  "working_name": "FMO2+/F3+/MGP+/GDF10+/MMP3+ adipogenesis-regulatory cell (Areg)",
+  "mapping_type": "FULL",
+  "core_markers": [
+   "FMO2"
+  ],
+  "contested": [
+   {
+    "gene_symbol": "F3",
+    "n_members_with_gene": 4,
+    "n_total_members": 5
+   },
+   {
+    "gene_symbol": "MGP",
+    "n_members_with_gene": 2,
+    "n_total_members": 5
+   }
+  ],
+  "n_idiosyncratic": 3,
+  "pass1_counterpart": "F3+/CLEC11A+ adipogenesis-regulatory cell (Areg)",
+  "marker_overlap_with_pass1": 0.667,
+  "support_set_jaccard": 0.1429,
+  "reporting_studies": [
+   {
+    "pmid": "38951550",
+    "doi": "10.1038/s42003-024-06448-3",
+    "author_label": "F3 preadipocytes",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells, stromal vascular fraction (SVF); mature lipid-containing adipocytes excluded by centrifugation before scRNA-seq",
+    "source_locator": "Results, 'Clustering and reconstruction of the developmental trajectory of preadipocytes' section (page 3-5); Figure 3b"
+   },
+   {
+    "pmid": "40836034",
+    "doi": "10.1038/s44318-025-00524-y",
+    "author_label": "P3",
+    "species_normalized": "mouse",
+    "depot_category": "inguinal_mouse",
+    "input_material": "whole cells (FACS-sorted P3 APCs, bulk RNA-seq, not single-cell)",
+    "source_locator": "Results text, same paragraph as P1/P2 above; markers also shown in Figure 3C ('P3 marker' panel)"
+   },
+   {
+    "pmid": "41731620",
+    "doi": "10.1186/s13293-026-00859-z",
+    "author_label": "Areg",
+    "species_normalized": "mouse",
+    "depot_category": "gonadal_epididymal_mouse",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Results main text (defines 'Areg' = adipogenesis regulators, citing refs [26,49]) plus Additional file 1, Supplementary Figure S3, panel B (dot plot); panel A is the UMAP showing the Areg cluster label; Fig. S3 legend text (Additional file 1) glosses 'Areg, adipogenesis regulator' (singular)"
+   },
+   {
+    "pmid": "42474080",
+    "doi": "10.1002/advs.76699",
+    "author_label": "Aregs (cluster 7)",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_facial_neck_human",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Results 2.1: 'Clusters 7 and 8 expressed elevated levels of FMO2 and F3 (CD142), markers characteristic of Aregs' (Figure 1K); cf. Figure 1L,M"
+   },
+   {
+    "pmid": "42474080",
+    "doi": "10.1002/advs.76699",
+    "author_label": "Aregs (cluster 8)",
+    "species_normalized": "human",
+    "depot_category": "subcutaneous_facial_neck_human",
+    "input_material": "whole cells (stromal vascular fraction, SVF)",
+    "source_locator": "Results 2.1: 'Clusters 7 and 8 expressed elevated levels of FMO2 and F3 (CD142), markers characteristic of Aregs' (Figure 1K); cf. Figure 1L,M"
+   }
+  ],
+  "n_member_labels": 5,
+  "stable_across_runs": [
+   "F3",
+   "FMO2"
+  ],
+  "v4_only_markers": [
+   "MGP"
+  ],
+  "n_v4_markers": 3,
+  "transcription_note": null
+ }
+]
